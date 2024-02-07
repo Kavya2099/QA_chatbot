@@ -6,7 +6,7 @@ load_dotenv()  # take environment variables from .env.
 
 import streamlit as st
 import os
-from langchain.chat_models import AzureChatOpenAI
+from langchain_community.chat_models import AzureChatOpenAI
 
 
 ## Function to load OpenAI model and get respones
